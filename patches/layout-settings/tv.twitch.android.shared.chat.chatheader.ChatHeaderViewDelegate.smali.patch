@@ -1,0 +1,29 @@
+diff --git a/smali_classes6/tv/twitch/android/shared/chat/chatheader/ChatHeaderViewDelegate.smali b/smali_classes6/tv/twitch/android/shared/chat/chatheader/ChatHeaderViewDelegate.smali
+--- a/smali_classes6/tv/twitch/android/shared/chat/chatheader/ChatHeaderViewDelegate.smali
++++ b/smali_classes6/tv/twitch/android/shared/chat/chatheader/ChatHeaderViewDelegate.smali
+@@ -737,6 +737,25 @@
+     return-void
+ .end method
+ 
++.method public show()V
++    .registers 2
++
++    .line 9
++    sget-object v0, Lbttv/settings/Settings;->HideChatHeaderEnabled:Lbttv/settings/Settings;
++
++    invoke-static {v0}, Lbttv/ResUtil;->getBooleanFromSettings(Lbttv/settings/Settings;)Z
++
++    move-result v0
++
++    if-eqz v0, :cond_b
++
++    .line 10
++    invoke-super {p0}, Ltv/twitch/android/core/mvp/viewdelegate/BaseViewDelegate;->show()V
++
++    :cond_b
++    return-void
++.end method
++
+ .method public final updateHeaderConfiguration(Ltv/twitch/android/shared/chat/chatheader/ChatHeaderViewDelegate$HeaderConfiguration;)V
+     .locals 1
+ 

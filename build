@@ -8,8 +8,12 @@ then
 fi
 
 [ -z "$JAVA_PATH" ] && JAVA_PATH=java
-[ -z "$APKTOOL_PATH" ] && APKTOOL_PATH=/opt/apktool/apktool.jar
-[ -z "$UBER_APK_SIGNER_PATH" ] && UBER_APK_SIGNER_PATH=/opt/uber-apk-signer/uber-apk-signer-1.2.1.jar
+[ -z "$JAVAC_PATH" ] && JAVAC_PATH=javac
+[ -z "$APKTOOL_PATH" ] && APKTOOL_PATH=/opt/apktool.jar
+[ -z "$UBER_APK_SIGNER_PATH" ] && UBER_APK_SIGNER_PATH=/opt/uber-apk-signer-1.2.1.jar
+[ -z "$ANDROID_SDK_ROOT" ] && ANDROID_SDK_ROOT=~/Android/Sdk
+[ -z "$BAKSMALI_PATH" ] && BAKSMALI_PATH=/opt/baksmali.jar
+[ -z "$BUILD_COMPANION" ] && BUILD_COMPANION=/opt/build-companion
 
 echo "JAVA_PATH: $JAVA_PATH"
 echo "APKTOOL_PATH: $APKTOOL_PATH"

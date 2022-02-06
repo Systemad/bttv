@@ -10,4 +10,5 @@ public abstract class BaseViewDelegate {
     public final View getContentView() {
         throw new IllegalStateException("BaseViewDelegate.getContentView() was called");
     }
+    public void show() {}
 }

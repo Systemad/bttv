@@ -19,6 +19,7 @@
     <string name="bttv_settings_enable_gif_emotes_primary">BTTV Gif Emotes</string>
     <string name="bttv_settings_enable_ffz_emotes_primary">FrankerFaceZ Emotes</string>
     <string name="bttv_settings_enable_7tv_emotes_primary">7TV Emotes</string>
+    <string name="bttv_settings_hide_chat_header_primary">Hide chat header</string>
     <string name="bttv_settings_enable_auto_redeem_points_primary">Auto-Redeem Channel Points</string>
     <string name="bttv_settings_show_sleep_timer_primary">Show Sleep Timer</string>
     <string name="bttv_settings_show_uptime">Show Uptime</string>

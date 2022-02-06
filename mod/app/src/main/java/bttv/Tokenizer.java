@@ -1,6 +1,7 @@
 package bttv;
 
 import android.content.Context;
+import android.os.Vibrator;
 import android.util.Log;
 
 import androidx.core.util.Pair;

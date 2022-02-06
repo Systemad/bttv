@@ -142,6 +142,15 @@ public enum Settings {
                     null,
                     SettingsDestination.BTTV_CREDITS
             )
+    ),
+    HideChatHeaderEnabled(
+            new Entry.BoolEntry(
+                    "hide_chat_header",
+                    new Entry.BoolValue(false),
+                    Res.strings.bttv_settings_hide_chat_header_primary,
+                    null,
+                    null
+            )
     );
 
     public final Entry entry;
