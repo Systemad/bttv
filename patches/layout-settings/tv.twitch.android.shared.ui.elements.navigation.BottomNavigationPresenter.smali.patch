@@ -1,0 +1,14 @@
+diff --git a/smali_classes7/tv/twitch/android/shared/ui/elements/navigation/BottomNavigationPresenter.smali b/smali_classes7/tv/twitch/android/shared/ui/elements/navigation/BottomNavigationPresenter.smali
+--- a/smali_classes7/tv/twitch/android/shared/ui/elements/navigation/BottomNavigationPresenter.smali
++++ b/smali_classes7/tv/twitch/android/shared/ui/elements/navigation/BottomNavigationPresenter.smali
+@@ -391,6 +391,10 @@
+ 
+     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+ 
++    invoke-static {p1}, Lbttv/layoutsettings/HideNavigationTabs;->hideBottomNavigationTabs(Ljava/util/List;)Ljava/util/List;
++
++    move-result-object p1
++
+     .line 88
+     iget-object v0, p0, Ltv/twitch/android/shared/ui/elements/navigation/BottomNavigationPresenter;->viewDelegate:Ltv/twitch/android/shared/ui/elements/navigation/BottomNavigationViewDelegate;
+ 

@@ -146,8 +146,17 @@ public enum Settings {
     HideChatHeaderEnabled(
             new Entry.BoolEntry(
                     "hide_chat_header",
-                    new Entry.BoolValue(false),
+                    new Entry.BoolValue(true),
                     Res.strings.bttv_settings_hide_chat_header_primary,
+                    null,
+                    null
+            )
+    ),
+    HideDiscoverTabEnabled(
+            new Entry.BoolEntry(
+                    "hide_discover_tab",
+                    new Entry.BoolValue(true),
+                    Res.strings.bttv_settings_hide_discover_tab_primary,
                     null,
                     null
             )

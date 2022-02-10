@@ -1,4 +1,4 @@
-package bttv.api;
+package bttv.api.layoutsettings;
 
 import bttv.ResUtil;
 import bttv.settings.Settings;

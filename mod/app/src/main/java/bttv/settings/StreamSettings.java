@@ -28,6 +28,7 @@ public class StreamSettings {
         setupBooleanToggle(view, Res.ids.bttv_stream_settings_enable_ffz_emotes_toggle, Settings.FFZEmotesEnabled);
         setupBooleanToggle(view, Res.ids.bttv_stream_settings_enable_7TV_emotes_toggle, Settings.SevenTVEmotesEnabled);
         setupBooleanToggle(view, Res.ids.bttv_stream_settings_hide_chat_header_toggle, Settings.HideChatHeaderEnabled);
+        setupBooleanToggle(view, Res.ids.bttv_stream_settings_hide_discover_tab_toggle, Settings.HideDiscoverTabEnabled);
         setupBooleanToggle(view, Res.ids.bttv_stream_settings_enable_auto_redeem_toggle, Settings.AutoRedeemChannelPointsEnabled);
         setupBooleanToggle(view, Res.ids.bttv_stream_settings_enable_show_deleted_messages_toggle, Settings.ShowDeletedMessagesEnabled);
         setupAnonChatToggle(view);
