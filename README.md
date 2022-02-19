@@ -41,7 +41,7 @@ A mod of the Twitch Android Mobile<sup><a href="#no-tv">1</a></sup> App adding B
 
 # Build it yourself
 
-> This patch is meant to be applied to version **12.1.2** of the official twitch app
+> This patch is meant to be applied to version **12.3.0** of the official twitch app
 > Make sure you use this version before you create an issue!
 
 ## Easy way: Docker
@@ -121,7 +121,7 @@ Made with ♥️ by [@FoseFx](https://github.com/FoseFx) and contributors. MIT L
 [license-badge]: https://img.shields.io/github/license/bttv-android/bttv?style=flat-square
 [license-file]: ./LICENSE
 [bttv-version]: https://img.shields.io/github/v/release/bttv-android/bttv?style=flat-square
-[base-version]: https://img.shields.io/badge/build%20on-v12.1.2-blueviolet?style=flat-square
+[base-version]: https://img.shields.io/badge/build%20on-v12.3.0-blueviolet?style=flat-square
 [downloads-latest]: https://img.shields.io/github/downloads/bttv-android/bttv/latest/total?color=yellow&style=flat-square
 [downloads-total]: https://img.shields.io/github/downloads/bttv-android/bttv/total?color=yellowgreen&label=downloads%20total&style=flat-square
 [latest-release]: https://github.com/bttv-android/bttv/releases/latest
@@ -189,6 +189,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/NumbPat"><img src="https://avatars.githubusercontent.com/u/88035271?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NumbPat</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/issues?q=author%3ANumbPat" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/JRoy"><img src="https://avatars.githubusercontent.com/u/10731363?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Josh Roy</b></sub></a><br /><a href="#ideas-JRoy" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/Lather0519"><img src="https://avatars.githubusercontent.com/u/32637838?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lather0519</b></sub></a><br /><a href="#translation-Lather0519" title="Translation">🌍</a></td>
   </tr>
 </table>
 
