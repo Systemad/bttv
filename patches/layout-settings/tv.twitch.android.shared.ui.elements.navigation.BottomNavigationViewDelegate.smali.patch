@@ -1,0 +1,14 @@
+diff --git a/smali_classes6/tv/twitch/android/shared/ui/elements/navigation/BottomNavigationViewDelegate.smali b/smali_classes6/tv/twitch/android/shared/ui/elements/navigation/BottomNavigationViewDelegate.smali
+--- a/smali_classes6/tv/twitch/android/shared/ui/elements/navigation/BottomNavigationViewDelegate.smali
++++ b/smali_classes6/tv/twitch/android/shared/ui/elements/navigation/BottomNavigationViewDelegate.smali
+@@ -199,6 +199,10 @@
+ 
+     invoke-virtual {v0}, Lcom/aurelhubert/ahbottomnavigation/AHBottomNavigation;->removeAllItems()V
+ 
++    invoke-static {p1}, Lbttv/layoutsettings/HideNavigationTabs;->hideBottomNavigationTabs(Ljava/util/List;)Ljava/util/List;
++    
++    move-result-object p1
++
+     .line 60
+     iget-object v0, p0, Ltv/twitch/android/shared/ui/elements/navigation/BottomNavigationViewDelegate;->navigationView:Lcom/aurelhubert/ahbottomnavigation/AHBottomNavigation;
+ 

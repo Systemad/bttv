@@ -144,5 +144,5 @@ mkdir devtools
 mv tv.twitch.android.feature.viewer.main.navigation.ToolbarPresenter.smali.patch devtools/.
 
 mkdir layout-settings
-mv tv.twitch.android.shared.chat.chatheader.ChatHeaderViewDelegate.smali.patch layout-settings/.
-mv tv.twitch.android.shared.ui.elements.navigation.BottomNavigationPresenter.smali.patch layout-settings/.
+#mv tv.twitch.android.shared.chat.chatheader.ChatHeaderViewDelegate.smali.patch layout-settings/.
+mv tv.twitch.android.shared.ui.elements.navigation.BottomNavigationViewDelegate.smali.patch layout-settings/.
