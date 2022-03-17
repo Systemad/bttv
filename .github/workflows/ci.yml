@@ -23,7 +23,7 @@ jobs:
       # set env variables
       - name: set variables
         run: |
-          echo "APK_URL=https://www.dropbox.com/s/q9lq1dwsb2hcjr4/twitch-12.3.0.apk\?\dl=1" >> $GITHUB_ENV
+          echo "APK_URL=https://www.dropbox.com/s/c4g7l9j51f1yv4s/twitch-12.5.2.apk\?\dl=1" >> $GITHUB_ENV
 
       # get keystore.kjs from secret
       - name: create keystore.kjs from secret
@@ -72,6 +72,7 @@ jobs:
             -v $(pwd)/.bttv-cache/disass_hash:/usr/build/.bttv-cache/disass_hash \
             -v $(pwd)/.bttv-cache/gradle_caches:/root/.gradle/caches \
             -v $(pwd)/.bttv-cache/gradle_wrapper:/root/.gradle/wrapper \
+            -v $(pwd)/bttv.manifest.json:/usr/build/bttv.manifest.json \
             -v $(pwd)/dist:/usr/build/dist \
             -v $(pwd)/mod:/usr/build/mod \
             -v $(pwd)/patches:/usr/build/patches \

@@ -1,7 +1,7 @@
-diff --git a/smali_classes7/tv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference.smali b/smali_classes7/tv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference.smali
---- a/smali_classes7/tv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference.smali
-+++ b/smali_classes7/tv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference.smali
-@@ -97,12 +97,15 @@
+diff --git a/smali_classes6/tv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference.smali b/smali_classes6/tv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference.smali
+--- a/smali_classes6/tv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference.smali
++++ b/smali_classes6/tv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference.smali
+@@ -93,12 +93,15 @@
  
  .field public static final enum SmartFeed:Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
  
@@ -10,34 +10,39 @@ diff --git a/smali_classes7/tv/twitch/android/shared/ui/menus/SettingsPreference
 +# /BTTV
  
  # direct methods
- .method static constructor <clinit>()V
-     .locals 4
+ .method private static final synthetic $values()[Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
+     .locals 3
  
--    const/16 v0, 0x24
-+    const/16 v0, 0x25 # length of values array
+-    const/16 v0, 0x22
++    const/16 v0, 0x23 # length of values array (22 -> 23)
  
      new-array v0, v0, [Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
  
-@@ -566,6 +569,22 @@
+@@ -306,6 +309,12 @@
  
      aput-object v1, v0, v2
  
 +    # BTTV
-+    #     expects:
-+    #       v0: tv.twitch.android.shared.ui.menus.SettingsPreferencesController.SettingsPreference
-+    #     sets:
-+    #       v1: tv.twitch.android.shared.ui.menus.SettingsPreferencesController.SettingsPreference
-+    #       v2: java.lang.String
-+    #       v2: I
-+    #       v3: I
-+    new-instance v1, Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
-+    const-string v2, "BTTVEmotesEnabled"
-+    const/16 v3, 0x24
-+    invoke-direct {v1, v2, v3}, Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;-><init>(Ljava/lang/String;I)V
-+    const/16 v2, 0x24
++    sget-object v1, Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;->BTTVEmotesEnabled:Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
++    const/16 v2, 0x22
 +    aput-object v1, v0, v2
 +    # /BTTV
 +
-     sput-object v0, Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;->$VALUES:[Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
+     return-object v0
+ .end method
  
-     return-void
+@@ -686,6 +695,14 @@
+ 
+     sput-object v0, Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;->GameBroadcastingViewerCount:Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
+ 
++    # BTTV
++    new-instance v0, Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
++    const-string v1, "BTTVEmotesEnabled"
++    const/16 v2, 0x22
++    invoke-direct {v0, v1, v2}, Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;-><init>(Ljava/lang/String;I)V
++    sput-object v0, Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;->BTTVEmotesEnabled:Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
++    # /BTTV
++
+     invoke-static {}, Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;->$values()[Ltv/twitch/android/shared/ui/menus/SettingsPreferencesController$SettingsPreference;
+ 
+     move-result-object v0

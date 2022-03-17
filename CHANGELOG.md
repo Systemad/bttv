@@ -1,5 +1,16 @@
 # Changelog
 
+# 0.23.1-beta
+- fix issue that prevented install for some users
+
+# 0.23.0-beta
+- rebase to v12.5.2
+
+# 0.22.2-beta
+- rebase to v12.4.1
+- fix url-after-mention bug
+- fix bttv settings crash
+
 # v0.21.0-beta
 - rebase to v12.3.0
 - anon chat issues fixed

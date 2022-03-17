@@ -1,13 +1,13 @@
-diff --git a/smali_classes6/tv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global.smali b/smali_classes6/tv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global.smali
---- a/smali_classes6/tv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global.smali
-+++ b/smali_classes6/tv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global.smali
+diff --git a/smali_classes5/tv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global.smali b/smali_classes5/tv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global.smali
+--- a/smali_classes5/tv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global.smali
++++ b/smali_classes5/tv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global.smali
 @@ -1,4 +1,4 @@
 -.class public final Ltv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global;
 +.class public Ltv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType$Global;
  .super Ltv/twitch/android/models/emotes/EmoteCardType$GenericEmoteCardType;
  .source "SourceFile"
  
-@@ -32,7 +32,7 @@
+@@ -31,7 +31,7 @@
      return-void
  .end method
  
